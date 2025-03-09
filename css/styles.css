@@ -1,0 +1,194 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fafafa;
+}
+
+
+ul,ol{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color:#111;
+}
+
+/* Span */
+.span-title-word{
+    color: #fd9222;
+}
+
+/* HEADER */
+.logo-word{
+    font-style: italic;
+}
+
+.nav-logo{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.11;
+    letter-spacing: -0.03em;
+}
+
+.navigation-menu{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14286;
+    letter-spacing: -0.02em;
+}
+
+.navigation-menu .nav-item:hover,
+.navigation-menu .nav-item:focus{
+    color: #fd9222;
+}
+
+/* First-SECTION */
+.first-section{
+    background: #1e1823;
+}
+
+.first-section-title{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.21429;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+
+.first-section-button{
+    background: #fd9222;
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+}
+
+.first-section-link{
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+}
+
+.first-section-p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+
+/* 2 section */
+
+.second-section{
+    background: #1e1823;;
+}
+
+.second-section-title{
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+}
+
+.second-section-info{
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* 3 section */
+.third-section-title{
+    font-weight: 600;
+    line-height: 1.16667;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+}
+
+.third-section-info{
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+
+.third-section-milk-chocholate{
+    background: #fd9222;
+}
+
+.title-milk-chocolate{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.third-section-milk{
+    background: #fff;
+}
+
+.title-milk{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+.third-section-nuts{
+    background: #1e1823;
+}
+
+.title-nuts{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.third-section-semi-chocolate{
+    background: #fff;
+}
+
+.title-semi-chocolate{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+/* 4 section */
+
+.four-section-title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.16667;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.four-section-list{
+    background: #fff;
+}
+
+.four-section-title-list{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33333;
+}
+
+.four-section-list-item{
+    list-style-type:initial;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: #111;
+}
+
+    

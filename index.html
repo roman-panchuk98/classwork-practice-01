@@ -19,33 +19,35 @@
   </head>
   <body>
     <header>
-      <nav>
-        <h2><a href="./index.html">Simply Chocholate</a></h2>
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="#first-nav">How it’s made?</a></li>
-          <li><a href="#second-nav">Chocolate is loved</a></li>
+      <nav class="navigation">
+        <h2 class="nav-logo">
+          <a href="./index.html"><span class="logo-word">Simply</span> Chocholate</a>
+        </h2>
+        <ul class="navigation-menu">
+          <li><a href="./index.html" class="nav-item">Home</a></li>
+          <li><a href="#first-nav" class="nav-item">How it’s made?</a></li>
+          <li><a href="#second-nav" class="nav-item">Chocolate is loved</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <!-- First section -->
-      <section>
-        <h1>
-          Treat yourself or a loved one to our finest ingredients for a moment
+      <section class="first-section">
+        <h1 class="first-section-title">
+          Treat yourself or a loved one to <br>our finest ingredients for a moment <br>
           of pure delight!
         </h1>
-        <button type="button">Buy now</button>
-        <a href="#first-nav">How it’s made</a>
-        <p>scroll down</p>
+        <button type="button" class="first-section-button">Buy now</button>
+        <a href="#first-nav" class="first-section-link">How it’s made</a>
+        <p class="first-section-p">scroll down</p>
       </section>
       <!-- Second section -->
-      <section>
+      <section class="second-section">
         <h2 hidden>Information</h2>
         <ul>
           <li>
-            <h3>Unsurpassed taste</h3>
-            <p>
+            <h3 class="second-section-title">Unsurpassed taste</h3>
+            <p class="second-section-info">
               Crafted with the finest quality cocoa beans and a dedication to
               perfection, each bite is a decadent experience that simply cannot
               be matched. Savor the richness and complexity of our Unsurpassed
@@ -53,8 +55,8 @@
             </p>
           </li>
           <li>
-            <h3>Affordable price</h3>
-            <p>
+            <h3 class="second-section-title">Affordable price</h3>
+            <p class="second-section-info">
               Indulge in high-quality chocolate without breaking the bank with
               Simply Chocolate's selection of affordable treats. Enjoy
               mouth-watering truffles and velvety chocolate bars without
@@ -63,8 +65,8 @@
             </p>
           </li>
           <li>
-            <h3>Own production</h3>
-            <p>
+            <h3 class="second-section-title">Own production</h3>
+            <p class="second-section-info">
               We take pride in our own production process, ensuring that every
               step is carefully crafted to perfection. From selecting the finest
               ingredients to handcrafting each piece, our attention to detail is
@@ -75,46 +77,44 @@
       </section>
       <!-- Third section -->
       <section>
-        <h2>IT ALL ADDS UP TO ONE EXCEPTIONAL TASTE SENSATION</h2>
-        <p>
+        <h2 class="third-section-title">IT ALL ADDS UP TO ONE EXCEPTIONAL <span class="span-title-word">TASTE</span> SENSATION</h2>
+        <p class="third-section-info">
           At Simply Chocolate, we believe that the secret to exceptional
           chocolate is in the details. From the sourcing of the finest
           ingredients to the careful crafting of each individual piece, every
           step of our process adds up to one exceptional taste sensation.
         </p>
         <ul>
-          <li>
+          <li class="third-section-milk-chocholate">
+            <img src="./images/chocolate.png" alt="Milk Chocolate" width="206" />
+            <h3 class="title-milk-chocolate">Milk Chocolate</h3>
+          </li>
+          <li class="third-section-milk">
+            <img src="./images/milk.png" alt="Milk" width="206" />
+            <h3 class="title-milk">Milk</h3>
+          </li>
+          <li class="third-section-nuts">
+            <img src="./images/nuts.png" alt="Nuts" width="206" />
+            <h3 class="title-nuts">Nuts</h3>
+          </li>
+          <li class="third-section-semi-chocolate">
             <img
-              src="./images/chocolate.jpg"
-              alt="Milk Chocolate"
-              width="206" />
-            <h3>Milk Chocholate</h3>
-          </li>
-          <li>
-            <img src="./images/milk.jpg" alt="Milk" width="206" />
-            <h3>Milk</h3>
-          </li>
-          <li>
-            <img src="./images/nuts.jpg" alt="Nuts" width="206" />
-            <h3>Nuts</h3>
-          </li>
-          <li>
-            <img
-              src="./images/coffee.jpg"
+              src="./images/coffee.png"
               alt="Semi-Sweet Chocolate"
               width="206" />
-            <h3>Semi - Sweet Chocolate</h3>
+            <h3 class="title-semi-chocolate">Semi - Sweet Chocolate</h3>
           </li>
         </ul>
       </section>
       <!-- Fourth section -->
       <section>
-        <h2 id="first-nav">How it’s made?</h2>
-        <img src="./images/Cooking.jpg" alt="Cook" width="600" />
-        <h3>
+        <h2 id="first-nav" class="four-section-title">How it’s <span class="span-title-word">made?</span></h2>
+        <img src="./images/Cooking.png" alt="Cook" width="600" />
+        <div class="four-section-list">
+        <h3 class="four-section-title-list">
           Try our chocolates today and discover the perfect balance of flavor
         </h3>
-        <ul>
+        <ul class="four-section-list-item">
           <li>
             <p>
               Heat the milk in a saucepan without bringing it to a boil. Add
@@ -141,14 +141,15 @@
             </p>
           </li>
         </ul>
+      </div>
       </section>
       <!-- Fifth section -->
       <section>
-        <h2 id="second-nav">Chocolate is loved</h2>
+        <h2 id="second-nav"><span class="span-title-word">Chocolate</span> is loved</h2>
         <ul>
           <li>
             <img
-              src="./images/Victoria.jpg"
+              src="./images/Victoria.png"
               alt="Victoria Dobrzhanska"
               width="80" />
             <h3>Victoria Dobrzhanska</h3>
@@ -158,7 +159,7 @@
             </p>
           </li>
           <li>
-            <img src="./images/Nazar.jpg" alt="Nazar Babenko" width="80" />
+            <img src="./images/Nazar.png" alt="Nazar Babenko" width="80" />
             <h3>Nazar Babenko</h3>
             <p>
               This chocolate confection is a delight! A delight! The wafer is
@@ -167,7 +168,7 @@
             </p>
           </li>
           <li>
-            <img src="./images/Olena.jpg" alt="Olena Kampusch" width="80" />
+            <img src="./images/Olena.png" alt="Olena Kampusch" width="80" />
             <h3>Olena Kampusch</h3>
             <p>
               Chocolate is a family favourite treat. Love the delicious smooth
