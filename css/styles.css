@@ -13,6 +13,10 @@ a{
     color:#111;
 }
 
+button{
+    cursor: pointer;
+}
+
 /* Span */
 .span-title-word{
     color: #fd9222;
@@ -188,7 +192,104 @@ a{
     font-size: 14px;
     line-height: 1.28571;
     letter-spacing: -0.02em;
-    color: #111;
 }
+
+/* Five-section */
+.five-section-title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.16667;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+ .five-list-title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33333;
+    text-align: center;
+ }
+
+ .five-list-info{
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: rgba(17, 17, 17, 0.7);
+ }
+
+ .five-section-button{
+    font-weight: 600;
+    font-size: 18px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    gap: 14px;
+    border: 1px solid #fd9222;
+    border-radius: 100px;
+    padding: 14px 40px;
+    width: 222px;
+    height: 50px;
+ }
+
+ .five-section-button:hover,
+ .five-section-button:focus{
+    background: #fd9222;
+    color: #fff;
+ }
+
+ /* Footer */
+.footer{
+    background: #1e1823;
+}
+
+.footer-title{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.21429;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+
+.footer-address-title{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    text-align: center;
+    color: #fff;
+}
+ 
+.footer-address-info{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+
+.footer-address-info > a{
+    color: #fff;
+}
+
+.nav-footer{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14286;
+    letter-spacing: -0.02em;
+}
+
+.nav-footer > a{
+    color: #fff;
+}
+
+.nav-footer a:hover,
+.nav-footer a:focus{
+    color:#fd9222
+}
+
+
+
 
     
