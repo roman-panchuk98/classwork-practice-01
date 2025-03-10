@@ -17,6 +17,23 @@ button{
     cursor: pointer;
 }
 
+.first-section-button{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 14px;
+    border-radius: 100px;
+    padding: 14px 40px;
+    background: #fd9222;
+}
+
+.first-section-button:hover,
+.first-section-button:focus{
+    color: #fd9222;
+    background: #fcf1e0;
+}
+
 /* Span */
 .span-title-word{
     color: #fd9222;
